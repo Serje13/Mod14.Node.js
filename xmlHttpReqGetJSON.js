@@ -10,7 +10,7 @@ function getJSON() {
         var accesP = document.getElementById('myPar');
         var ol = document.createElement('ol');
         accesP.appendChild(ol);
-        var accesOl = document.querySelector ('ol');
+        var accesOl = document.querySelector('ol');
         var li = document.createElement('li');
         li.innerHTML = arr[i].ccy + ' by ' + arr[i].base_ccy + ' buy: ' + arr[i].buy + ' sale: ' + arr[i].sale;
         accesOl.appendChild(li);
